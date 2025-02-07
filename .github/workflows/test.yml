@@ -3,10 +3,10 @@ name: Run Tests
 on:
   push:
     branches:
-      - main  # или master, если это твоя основная ветка
+      - master  # или master, если это твоя основная ветка
   pull_request:
     branches:
-      - main  # или master, если это твоя основная ветка
+      - master  # или master, если это твоя основная ветка
 
 jobs:
   test:
