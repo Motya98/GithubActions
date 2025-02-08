@@ -7,4 +7,3 @@ def test_add():
 
     o = add.Mathem(1, 1)
     assert o.add() == 2
-
